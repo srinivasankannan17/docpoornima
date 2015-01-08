@@ -1,0 +1,51 @@
+
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+
+/* Header */
+
+	#header {
+		width: 21em;
+	}
+
+		#header > header {
+			padding: 2em;
+		}
+
+		#header > footer {
+			padding: 1.5em;
+		}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-left: 21em;
+		background:url(../images/BG.png) no-repeat right top scroll ;
+	}
+
+/* Main */
+
+	#main > section > .container {
+		padding: 4em 0 2em 0;
+	}
+	
+/*  maps */
+
+.google-maps {
+        position: relative;
+        padding-bottom: 35%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+		margin-bottom:2em;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
